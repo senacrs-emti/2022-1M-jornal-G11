@@ -1,0 +1,28 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.principal {
+    background-color: rgb(50,50,50);
+    height: 150px;
+    width: 100%;
+    color: white;
+}
+.titfooter {
+    padding-left: 5%;
+    padding-top: 2%;
+}
+.direitos {
+    display: inline-block;
+    padding-left: 5%;
+    padding-top: 1%;
+    width: 50%;
+}
+.autor {
+    display: block;
+    float: right;
+    padding-right: 5%;
+    padding-top: 1%;
+}
