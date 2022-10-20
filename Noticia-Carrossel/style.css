@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    width: 100%;
+    margin-top: 25px;
+    background-color: #505050;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding: 12px;
+    margin-bottom: 25px;
+}
+
+.img-assunto{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    
+}
+
+.line-purple{
+    background-color: purple;
+    padding: 1px;
+}
