@@ -24,7 +24,35 @@
     
 }
 
+.img-assunto img{
+    
+    width: 65%;
+    height: 200px;
+}
+
 .line-purple{
     background-color: purple;
     padding: 1px;
+}
+
+.img-noticias{
+    text-align: center;
+}
+
+.img-noticias img{
+    width: 35%;
+    justify-content: space-around;
+    display: inline-block;
+    margin-top: 35px;
+}
+
+.anuncio{
+    text-align: center;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.anuncio img{
+    width: 65%;
+    height: 200px;
 }
