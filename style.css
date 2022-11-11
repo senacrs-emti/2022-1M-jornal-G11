@@ -44,3 +44,34 @@
     margin-top: 35px;
 }
 
+
+.space-between{
+    padding: 15px 0;
+}
+
+.space-between p{
+    text-align: justify;
+}
+
+.wraper-p-img{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wraper-p-img .p3{
+    display: inline-block;
+    width: 48%;
+    margin-right: -4px;
+}
+
+.wraper-p-img .imgnoticia2{
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wraper-p-img .imgnoticia2 img{
+    max-width: 100%;
+}
