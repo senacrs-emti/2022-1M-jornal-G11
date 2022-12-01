@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    color: #EBEBEB;
+}
+.cc{
+    width: 60%;
+}
+.maisvistas{
+    color: #141414;
+    font-weight: bold;
+    font-size: 32px;
+    margin-left: 6%;
+    list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 10 10"><circle fill="purple" cx="7" cy="7" r="2"/></svg>');
+}
+.maisvistas1{
+    color: #141414;
+    margin-top: 15%;
+    font-weight: bold;
+    font-size: 32px;
+    margin-left: 6%;
+    list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 10 10"><circle fill="purple" cx="7" cy="7" r="2"/></svg>');
+}
+
+#coluna1{
+    background-color: #CDCDCD;
+    width: 391px;
+    height: 606px;
+    margin-left: 3%;
+}
+.lorem{
+    color: #44148C;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10%;
+    margin-bottom: 23px;
+    margin-left: 3%;
+    padding-top: 23px;
+}
+.lorem1{
+    color: #44148C;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 23px 23px 23px 23px;
+
+}
+.aa{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 23px;
+    color:  #303030;
+    margin-left: 3%;
+    width: 391px;
+}
+.bb{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 23px;
+    color:  #656565;
+    margin-left: 3%;
+    width: 370px;
+}
+.bb1{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 0px;
+    color:  #656565;
+    margin-left: 6%;
+    width: 170px;
+    text-align: justify;
+}
+.imagem{
+    height: 229px;
+    width: 356px;
+    margin-left: 17.5px;
+    margin-top: 30px;
+}
+
+hr{
+    margin-left: 3%;
+}
+.dd{
+    width: 368px;
+    height: 185px;
+    margin-top:-64%;
+    margin-right: 15%;
+    float: right; 
+    background-color: #CDCDCD;   
+}
+
+.dd1{
+    width: 368px;
+    height: 185px;
+    margin-top:-41.8%;
+    margin-right: 15%;
+    float: right;    
+    background-color: #CDCDCD;
+}
+.dd3{
+    width: 368px;
+    height: 185px;
+    margin-top:-19.7%;
+    margin-right: 15%;
+    float: right;    
+    background-color: #CDCDCD;
+}
+
+.box{
+    width: 124px;
+    height: 143px;
+    float: right;
+    background-color:#EBEBEB;
+    
+    margin-right: 15px;
+    margin-top: -40px;
+}
