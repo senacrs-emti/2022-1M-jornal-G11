@@ -6,7 +6,7 @@
     color: #EBEBEB;
 }
 .cc{
-    width: 60%;
+    width: 75%;
 }
 .maisvistas{
     color: #141414;
@@ -26,9 +26,10 @@
 
 #coluna1{
     background-color: #CDCDCD;
-    width: 391px;
-    height: 606px;
+    width: 41%;
+    height: auto;
     margin-left: 3%;
+    padding-bottom: 40px;
 }
 .lorem{
     color: #44148C;
@@ -54,7 +55,7 @@
     margin-bottom: 23px;
     color:  #303030;
     margin-left: 3%;
-    width: 391px;
+    width: 90%;
 }
 .bb{
     font-family: 'Arial';
@@ -64,7 +65,7 @@
     margin-bottom: 23px;
     color:  #656565;
     margin-left: 3%;
-    width: 370px;
+    width: 90%;
 }
 .bb1{
     font-family: 'Arial';
@@ -79,7 +80,7 @@
 }
 .imagem{
     height: 229px;
-    width: 356px;
+    width: 90%;
     margin-left: 17.5px;
     margin-top: 30px;
 }
@@ -88,7 +89,7 @@ hr{
     margin-left: 3%;
 }
 .dd{
-    width: 368px;
+    width: 39%;
     height: 185px;
     margin-top:-64%;
     margin-right: 15%;
@@ -97,7 +98,7 @@ hr{
 }
 
 .dd1{
-    width: 368px;
+    width: 39%;
     height: 185px;
     margin-top:-41.8%;
     margin-right: 15%;
@@ -105,7 +106,7 @@ hr{
     background-color: #CDCDCD;
 }
 .dd3{
-    width: 368px;
+    width: 39%;
     height: 185px;
     margin-top:-19.7%;
     margin-right: 15%;
