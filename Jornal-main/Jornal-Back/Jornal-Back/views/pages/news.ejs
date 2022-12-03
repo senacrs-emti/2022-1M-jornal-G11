@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documents</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+    <%- include("../partials/header", {type: type}); %>
+    <div class="container mw900 news-page">
+        <h1><%= news.title %></h1>
+        <h3><%= news.subtitle %></h3>
+        <h4>Por <%= news.author %></h4>
+        <h6><%= news.created_at %></h6>
+        <div class="img-page-single" style="background-image: url('<%= news.img_principal %>');"></div>
+        <div class="mw600">
+            <% news.texts.forEach(note => { %>
+                <p><%= note %></p>
+            <% }) %>
+            <div class="img-page-single" style="background-image: url('<%= news.img_secundaria %>');"></div>
+        </div>
+    </div>
+    <%- include("../partials/footer"); %>
+</body>
+</html>

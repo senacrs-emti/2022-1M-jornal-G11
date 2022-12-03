@@ -1,0 +1,24 @@
+<div class="painel container">
+    <div class="painel-left">
+        <div class="news-single" onclick="redirect('<%= news[0].text_type %>/<%= news[0].id %>')" style="background-image: url('<%= news[0].img_principal %>')">
+            <div class="group-info">
+                <a><%= news[0].newsType %></a>
+                <h2><%= news[0].title %></h2>
+            </div>
+        </div>
+    </div>
+    <div class="painel-right">
+        <div class="news-single h50" onclick="redirect('<%= news[1].text_type %>/<%= news[1].id %>')" style="background-image: url('<%= news[1].img_principal %>')">
+            <div class="group-info">
+                <a><%= news[1].newsType %></a>
+                <h2><%= news[1].title %></h2>
+            </div>
+        </div>
+        <div class="news-single h50" onclick="redirect('<%= news[2].text_type %>/<%= news[2].id %>')" style="margin-top: 20px;background-image: url('<%= news[2].img_principal %>');">
+            <div class="group-info">
+                <a><%= news[2].newsType %></a>
+                <h2><%= news[2].title %></h2>
+            </div>
+        </div>
+    </div>
+</div>

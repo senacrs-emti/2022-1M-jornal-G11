@@ -1,0 +1,35 @@
+<div class="news-title">
+    <div class="dot-title"></div>
+    <h2>Mais vistas</h2>
+</div>
+<div class="content-news">
+    <div class="news-principal w50" onclick="redirect('<%= news[3].text_type %>/<%= news[3].id %>')">
+        <h4><%= news[3].text_type %></h4>
+        <h2><%= news[3].title %></h2>
+        <p><%= news[3].texts[0] %></p>
+        <div class="img-news" style="background-image: url('<%= news[3].img_principal %>');"></div>
+    </div>
+    <div class="news-right w50">
+        <div class="news-default" onclick="redirect('<%= news[4].text_type %>/<%= news[4].id %>')">
+            <div class="news-default-left">
+                <h4><%= news[4].text_type %></h4>
+                <h2><%= news[4].title %></h2>
+            </div>
+            <div class="news-default-img" style="background-image: url('<%= news[4].img_principal %>');"></div>
+        </div>
+        <div class="news-default" onclick="redirect('<%= news[5].text_type %>/<%= news[5].id %>')">
+            <div class="news-default-left">
+                <h4><%= news[5].text_type %></h4>
+                <h2><%= news[5].title %></h2>
+            </div>
+            <div class="news-default-img" style="background-image: url('<%= news[5].img_principal %>');"></div>
+        </div>
+        <div class="news-default" onclick="redirect('<%= news[6].text_type %>/<%= news[6].id %>')">
+            <div class="news-default-left">
+                <h4><%= news[6].text_type %></h4>
+                <h2><%= news[6].title %></h2>
+            </div>
+            <div class="news-default-img" style="background-image: url('<%= news[6].img_principal %>');"></div>
+        </div>
+    </div>
+</div>
